@@ -1,7 +1,5 @@
 ---
-title: My GitHub Pages Notebook!
+title: Mon Wiki
 ---
 
-Hello world!
-
-Write some words here!
+Bienvenue sur mon Wiki !
