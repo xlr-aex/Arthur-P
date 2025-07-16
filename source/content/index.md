@@ -19,7 +19,9 @@ Bienvenue sur mon Wiki !
     <img src="https://img.shields.io/badge/KYRRIA-ff69b4?style=for-the-badge&amp;logo=appveyor&amp;logoColor=white" alt="KYRRIA Project" />
   </a>
 </p>
+
 ---
+
 <p align="center"><strong> Étudiant en Master Cybersécurité & IA @EFREI Paris et CTF Player</strong></p>
 <p align="center">🔍 OSINT | Pentesting | IA</p>
 <p align="center">📍 Île-de-France </p>
