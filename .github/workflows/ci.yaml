@@ -73,6 +73,22 @@ jobs:
           ls -la public/
         working-directory: ./source
 
+      # --- NEW STEP: copy favicon into built site root ---
+      - name: Copy favicon into published site
+        run: |
+          echo ">>> Copying favicon..."
+          if [ -f ../favicon.ico ]; then
+            cp ../favicon.ico public/favicon.ico
+            echo "Copied repo-root favicon.ico -> public/"
+          elif [ -f quartz/static/icon.png ]; then
+            cp quartz/static/icon.png public/favicon.ico
+            echo "No repo-root favicon.ico; used quartz/static/icon.png instead."
+          else
+            echo "⚠️ No favicon found (../favicon.ico or quartz/static/icon.png missing)" >&2
+          fi
+          ls -l public/favicon.ico || echo "⚠️ favicon.ico missing after copy"
+        working-directory: ./source
+
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
 
