@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A propos.md",
+                "file": "Catégories/A propos.md",
                 "mode": "source",
                 "source": false
               },
@@ -222,10 +222,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16924282371b6108",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
     "Catégories/Moteurs de recherche OSINT.md",
-    "A propos.md",
+    "Catégories/A propos.md",
     "index.md",
     "Catégories/index.md",
     "Sans titre",
