@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Catégories/Ressources/Moteurs de recherche OSINT.md",
+                "file": "Catégories/Moteurs de recherche OSINT.md",
                 "mode": "source",
                 "source": false
               },
@@ -210,12 +210,12 @@
   },
   "active": "e6ef16a40ed7d7d8",
   "lastOpenFiles": [
+    "index.md",
+    "Catégories/Moteurs de recherche OSINT.md",
+    "Catégories/index.md",
     "Sans titre",
     "Catégories/Programmation/note 2.md",
-    "Catégories/Ressources/Moteurs de recherche OSINT.md",
-    "index.md",
     "Catégories/Ressources",
-    "Catégories/index.md",
     "Catégories"
   ]
 }
